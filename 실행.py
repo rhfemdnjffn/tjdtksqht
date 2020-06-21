@@ -416,4 +416,5 @@ def checkDueum(last_lastWord, first_yourWord):
         return False
 
 
-client.run("NjIyNDMyMzQ1OTE1NTIzMDk0.XrmhSw.bENuCr1vLUFxZj2wCndgnio2pYc")
+access_token = os.environ["BOT_TOKEN"]
+client.run(access_token)
